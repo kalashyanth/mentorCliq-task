@@ -30,3 +30,5 @@ please create a db with taskMentor and change the name of DB_DB_DATABASE=taskMen
 php artisan migrate <br>
 php artisan serve <br>
 
+
+The logic of matching employees - mentorCliq-task/app/Http/Controllers/MatchPercentageController.php - public function match()
