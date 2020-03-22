@@ -1,0 +1,93 @@
+/* Looks great in Chrome and Safari but a little off in Firefox */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-top: 60px;
+}
+
+input {
+    -webkit-appearance: none;
+    -webkit-border-radius:0;
+}
+
+label#largeFile:after {
+    position: absolute;
+    width: 250px;
+    max-width: 800px;
+    content: "Select your file";
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed #ccc;
+    color: #ccc;
+    font-size: 22px;
+    margin-top: -26px;
+    z-index: 0;
+}
+
+label#largeFile:hover:after {
+    color:#5385d6;
+    cursor:pointer;
+    border: 2px dashed #5385d6;
+}
+
+
+label#largeFile input#file {
+    width: 235px;
+    margin-top: 15px;
+    outline: 0px none;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    text-align: right;
+    padding-top: 5px;
+    padding-left: 0px;
+    background: #F8F8F8 none repeat scroll 0% 0%;
+    position: relative;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+#cover-upload {
+    text-align:center;
+    width:250px;
+    margin: 50px auto;
+}
+
+.cover-upload-heading {
+    text-align:center;
+}
+
+#file{
+    opacity: 0;
+}
+
+.inputSize{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+#errors {
+    text-align: center;
+    display: none;
+}
+#success {
+    text-align: center;
+    display: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
