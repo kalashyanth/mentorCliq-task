@@ -22,11 +22,11 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Instruction
-git clone 
-composer install
-cp .env.example .env
-php artisan key:generate
-please create a db with taskMentor and change the name of DB_DB_DATABASE=taskMentor in .env file
-php artisan migrate
-php artisan serve
+git clone <br>
+composer install <br>
+cp .env.example .env <br>
+php artisan key:generate <br>
+please create a db with taskMentor and change the name of DB_DB_DATABASE=taskMentor in .env file <br>
+php artisan migrate <br>
+php artisan serve <br>
 
